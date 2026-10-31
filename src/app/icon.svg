@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="14" fill="#FFFFFF" stroke="#EAEAE6" stroke-width="2" />
+  
+  <!-- Outer Chakra precision ticks -->
+  <g transform="translate(32, 32)">
+    <circle r="26" stroke="#C8C8C8" stroke-width="0.75" stroke-dasharray="2 2" fill="none" />
+    <circle r="23" stroke="#2D2D2D" stroke-width="0.5" opacity="0.3" fill="none" />
+    
+    <!-- 8 Cardinal/Intercardinal ticks -->
+    <line x1="0" y1="-26" x2="0" y2="-21" stroke="#2D2D2D" stroke-width="1.2" stroke-linecap="round" />
+    <line x1="0" y1="26" x2="0" y2="21" stroke="#2D2D2D" stroke-width="1.2" stroke-linecap="round" />
+    <line x1="-26" y1="0" x2="-21" y2="0" stroke="#2D2D2D" stroke-width="1.2" stroke-linecap="round" />
+    <line x1="26" y1="0" x2="21" y2="0" stroke="#2D2D2D" stroke-width="1.2" stroke-linecap="round" />
+  </g>
+
+  <!-- Interwoven Infinity Ribbon in Deep Graphite -->
+  <path
+    d="M 32 36 C 26 44, 14 44, 14 36 C 14 28, 26 28, 32 36 C 38 44, 50 44, 50 36 C 50 28, 38 28, 32 36"
+    stroke="#2D2D2D"
+    stroke-width="2.5"
+    stroke-linecap="round"
+    fill="none"
+  />
+  <circle cx="32" cy="36" r="1.2" fill="#2D2D2D" />
+
+  <!-- Guiding Spark / 4-Point Star Above -->
+  <g transform="translate(32, 18)">
+    <path d="M 0 -5 L 1.2 0 L 0 5 L -1.2 0 Z" fill="#2D2D2D" />
+    <path d="M -5 0 L 0 1.2 L 5 0 L 0 -1.2 Z" fill="#747474" />
+    <circle cx="0" cy="0" r="0.8" fill="#111111" />
+  </g>
+</svg>
