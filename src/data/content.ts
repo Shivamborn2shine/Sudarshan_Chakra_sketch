@@ -170,7 +170,7 @@ export const products: Product[] = [
 export const works: Work[] = [
   {
     slug: "scoop-n-brew",
-    title: "Scoop n Brew Gelato & Coffee",
+    title: "Scoop n Brew Cafe",
     clientOrProduct: "Scoop n Brew",
     category: "Gourmet Gelato & Craft Roastery",
     location: "High Street Retail",
