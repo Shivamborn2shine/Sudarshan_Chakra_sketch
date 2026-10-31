@@ -65,3 +65,4 @@ export const PaperCanvas: React.FC<PaperCanvasProps> = ({
     </div>
   );
 };
+
